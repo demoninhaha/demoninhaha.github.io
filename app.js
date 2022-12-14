@@ -12,7 +12,7 @@ switcher.addEventListener('click', function() {
     console.log(lowerName)
     if (lowerName == "gustavo voltolini" || lowerName == "gu" || lowerName == "guga" || lowerName == "volt" 
     || lowerName == "voltolini" || lowerName == "gustavo"){
-        tittle.textContent = "Analisador de Beleza";
+        tittle.textContent = "Analisador";
         progress.textContent = "100% Lindo";
         progress.style.width = "100%";
         progress.className = "progress-bar progress-bar-striped bg-success";
@@ -27,7 +27,7 @@ switcher.addEventListener('click', function() {
         match = true;
     }
     if(lowerName == "cacane" || lowerName == "caçane" || lowerName == "caçane maloz" || lowerName == "cacane maloz") {
-        tittle.textContent = "Analisador de Beleza";
+        tittle.textContent = "Analisador";
         progress.textContent = "100% Linda e gostosa";
         progress.style.width = "100%";
         progress.className = "progress-bar progress-bar-striped bg-success";
@@ -35,7 +35,7 @@ switcher.addEventListener('click', function() {
     } 
     if (!match) {
         var random_number = Math.floor(Math.random() * 21) + 10;
-        tittle.textContent = "Analisador de Beleza";
+        tittle.textContent = "Analisador";
         progress.className = "progress-bar progress-bar-striped bg-success";
         progress.textContent = random_number.toString() + "% de beleza";
         progress.style.width = random_number.toString() + "%";
