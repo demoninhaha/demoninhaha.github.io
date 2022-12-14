@@ -1,0 +1,45 @@
+body {
+    font-family: monospace;
+}
+
+#msg {
+font-family: monospace;
+}
+.space-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+.dark-theme {
+--bg: var(--black);
+--fontColor: var(--green);
+}
+
+body {
+background: var(--bg);
+color: var(--fontColor);
+font-family: helvetica;
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    height: "#input-name";
+}
+.btn .btn-dark{
+    margin: 0px;
+    height: "#input-name";
+}
+.progress-bar{
+    color: black;
+}
+#input-name{
+    margin: 0px;
+}
